@@ -644,16 +644,16 @@ p{
 }
 .container{
     width: 100%;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content:space-evenly;
-    border-spacing: 50%;
+    border-spacing: 100%;
 }
 .container .heading{
     
 }
 .container .heading h3{
-    font-size: 3em;
+    font-size: 20px;
     font-weight: 300;
     border-bottom: 0px solid #222;
 }
@@ -663,8 +663,8 @@ p{
 .container .box{
     display: flex;
     justify-content: center;
-    width: 90%;
-    padding: 350px 0;
+    width: 100;
+    padding: 150px 0;
     border-spacing: 50%;
     
 }
@@ -672,12 +672,12 @@ p{
 .container .box .dream{
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 50%;
     
     
 }
 .container .box .dream img{
-    width: 80%;
+    width: 1000%;
     border-radius: 5px;
     border-image: 10px;
     cursor: pointer;
