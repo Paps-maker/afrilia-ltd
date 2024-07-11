@@ -22,7 +22,7 @@ nav{
     align-items: center;
 }
 nav imag{
-    width: 50px;
+    width: 200px;
 }
 .nav-links{
     flex: 1;
@@ -667,7 +667,7 @@ p{
     display:flex;
     justify-content: center;
     width: 100;
-    padding: 300px 0;
+    padding: 500px 0;
     border-spacing:50%;
     
     
