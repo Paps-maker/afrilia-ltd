@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/C.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(p/C.jpg);
     background-size: cover;
     background-position: center;
     position:relative;
@@ -214,7 +214,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 70%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/ct1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(p/ct1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -286,7 +286,7 @@ h3{
 .Sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/o.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(p/o.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -452,7 +452,7 @@ p{
 .Sub-header1{
     height: 50vh;
     width: 50;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/n.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(p/n.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -634,7 +634,7 @@ p{
 .sub-header3{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/ship.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(p/ship.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
