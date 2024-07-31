@@ -70,7 +70,7 @@ nav imag{
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -900px 0;
-    animation: backcolor 5s linear infinite alternate;
+    animation: backcolor 3s linear infinite forwards;
 }
 @keyframes backcolor{
     100%{
