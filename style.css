@@ -84,6 +84,27 @@ nav imag{
     font-size: 20px;
     color:white;
 }
+.text-box p span
+{
+    display: inline-block;
+    animation: animate 5s linear forwards;
+
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY('0deg');
+        filter: blur(0);
+    }
+}
 .hero-btn{
     display:inline-block;
     text-decoration: none;
