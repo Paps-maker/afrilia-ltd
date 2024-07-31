@@ -64,6 +64,20 @@ nav imag{
 }
 .text-box h1{
     font-size: 50px;
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -900px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor{
+    100%{
+        background-position: 0 0;
+
+    }
+}
 }
 .text-box p{
     margin: 12px 0 42px;
