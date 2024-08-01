@@ -163,6 +163,14 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+     white-space: nowrap;
+    overflow: hidden;
+    width: 140ch;
+    animation: typewriter 10s steps(140) 2s , cursor 500ms steps(140) infinite;
+}
+@keyframes typewriter{
+    0%{width: 0;}
+    100%{width: 140ch;}
 }
 h1{
     font-size: 36px;
