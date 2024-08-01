@@ -87,7 +87,7 @@ nav imag{
 .text-box p span
 {
     display: inline-block;
-    animation: animate 6s linear forwards;
+    animation: animate 3s linear forwards;
 
 }
 @keyframes animate
