@@ -435,7 +435,7 @@ h3{
 
 .sub-header{
     text-align: center;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/o.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(p/o.jpg);
 }
 .sub-header h1{
     color: orange;
