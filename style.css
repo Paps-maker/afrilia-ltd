@@ -451,7 +451,7 @@ h3{
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -850px 0;
-    animation: backcolor 5s linear infinite alternate;
+    animation: backcolor 2s linear infinite alternate;
 }
 @keyframes backcolor {
     100%{
