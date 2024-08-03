@@ -435,6 +435,23 @@ h3{
 
 .sub-header{
     text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/o.jpg);
+}
+.sub-header h1{
+    color: orange;
+    font-size: 4em;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    background-image: linear-gradient(orange,orange);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -850px 0;
+    animation: backcolor 5s linear infinite alternate;
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
 }
 .p{
     font-size: 80px;
@@ -449,9 +466,19 @@ h3{
 }
 
 .containers .heading h3{
-    font-size: 3em;
-    font-weight: 300;
-    border-bottom: 0px solid #222;
+     color:orange;
+    font-size: 4em;
+    color: transparent;
+    background-image: linear-gradient(orange, orange);
+    background-repeat: no-repeat;
+    -webkit-background-clip:text;
+    background-position: -850px 0;
+    animation: backcolor 6s linear forwards;
+}
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
 }
 .containers .heading h3 span{
     font-weight: 50;
@@ -479,10 +506,29 @@ h3{
     padding: 1px 1;
 }
 .containers .box .dream .namepic h3{
-    font-size: 20px;
+    font-size: 22px;
+    color: orange;
     text-align:center;
-    
+    transform: translateY(-50%);
+    display: inline-block;
+    animation: animate 12s linear forwards; 
+         
         
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
 }
 
 }
