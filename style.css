@@ -478,7 +478,7 @@ h3{
     background-repeat: no-repeat;
     -webkit-background-clip:text;
     background-position: -850px 0;
-    animation: backcolor 6s linear forwards;
+    animation: backcolor 10s linear forwards;
 }
 @keyframes backcolor {
     100%{
@@ -516,7 +516,7 @@ h3{
     text-align:center;
     transform: translateY(-50%);
     display: inline-block;
-    animation: animate 12s linear forwards; 
+    animation: animate 16s linear forwards; 
          
         
 }
