@@ -332,6 +332,27 @@ h3{
     text-align: center;
     color: white;
 }
+.Sub-header h1{
+    transform: translateY(-50%);
+    font-size: 4em;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
 .about-us{
     width: 30%;
     margin: auto;
