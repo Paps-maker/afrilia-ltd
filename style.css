@@ -46,7 +46,7 @@ nav imag{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #008000;
     display: block;
     margin: auto;
     transition: 0.4s;
